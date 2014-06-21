@@ -17,7 +17,7 @@ protected Class<?>[] getServletConfigClasses(){
     @Override
     protected String[] getServletMappings() {
         return new String[]{
-        "/servicios/"
+        "/servicios/*"
     };
 }
     
